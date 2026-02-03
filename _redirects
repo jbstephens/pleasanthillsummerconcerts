@@ -1,0 +1,5 @@
+# Render redirects file
+# Clean URLs - Render serves index.html from directories automatically
+
+# Redirect any 404s to homepage
+/*    /index.html   404
