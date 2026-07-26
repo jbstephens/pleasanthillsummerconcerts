@@ -1,0 +1,34 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Pleasant Hill Summer Concerts//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:America/Los_Angeles
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ac-and-the-heatwave-june-7-2026@pleasanthillsummerconcerts.com
+DTSTAMP:20260726T000000Z
+DTSTART;TZID=America/Los_Angeles:20260607T180000
+DTEND;TZID=America/Los_Angeles:20260607T200000
+SUMMARY:AC & the Heatwave — Pleasant Hill Summer Concerts
+DESCRIPTION:Free outdoor concert — Funk\, soul & R&B classics with their own flair. Part of the 2026 Sunset by the Lake Summer Concert Series. https://pleasanthillsummerconcerts.com/concerts/ac-and-the-heatwave-june-7-2026/
+LOCATION:Pleasant Hill City Hall\, 100 Gregory Lane\, Pleasant Hill\, CA 94523
+URL:https://pleasanthillsummerconcerts.com/concerts/ac-and-the-heatwave-june-7-2026/
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
